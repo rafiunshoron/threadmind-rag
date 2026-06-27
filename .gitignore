@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Environment secrets
+.env
+
+# Local data
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Logs
+logs/*.jsonl
+!logs/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
